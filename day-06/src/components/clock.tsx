@@ -27,7 +27,7 @@ const Clock = () => {
     const interval = setInterval(() => {
       const now = new Date();
 
-      let hours = now.getHours() % 12; // Convert to 12-hour format
+      const hours = now.getHours() % 12; // Convert to 12-hour format
       const mins = now.getMinutes();
       const secs = now.getSeconds();
       const ampm = hours >= 12 ? "PM" : "AM";

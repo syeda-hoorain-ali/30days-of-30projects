@@ -82,15 +82,15 @@ const BirthdayWish = () => {
         <Card className="mx-auto overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl border-2 border-black">
 
           <CardHeader className="text-center">
-            <CardTitle className="text-4xl font-bold text-black">Happy 20th Birthday!</CardTitle>
-            <CardDescription className="text-2xl font-semibold text-gray-600">Asharib Ali</CardDescription>
-            <p className="text-lg text-gray-500">September 4th</p>
+            <CardTitle className="text-4xl font-bold text-black">Happy 8th Birthday!</CardTitle>
+            <CardDescription className="text-2xl font-semibold text-gray-600">Syeda Mantasha Ali</CardDescription>
+            <p className="text-lg text-gray-500">5th December</p>
           </CardHeader>
 
           <CardContent className="space-y-6 text-center">
 
             <div>
-              <h3 className="text-lg font-semibold text-black mb-2">Light the candles:</h3>
+              <h3 className="text-lg font-semibold text-black mb-2">Light up the candles:</h3>
               <div className="flex justify-center space-x-2">
 
                 {Array.from({ length: totalCandles }).map((_, index) => (
